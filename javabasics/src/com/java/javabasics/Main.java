@@ -10,7 +10,7 @@ public class Main {
 		dog.age=3;
 		dog.bark();
 		dog.sleep();//method
-		cat.name="xyz";
+		cat.name="jerry";
 		cat.meow();
 		
 

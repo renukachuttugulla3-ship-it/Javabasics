@@ -6,6 +6,7 @@ public class Tiger extends Animal{
 		// TODO Auto-generated method stub
 		
 		Animal a1=new Tiger();
+		a1.name = "Tiger";
 		a1.drinkingWater();
 		a1.eat();
 		a1.foodHabbit();
