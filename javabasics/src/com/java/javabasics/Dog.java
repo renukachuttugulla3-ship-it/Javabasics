@@ -6,8 +6,13 @@ public class Dog extends Animal {
 	        System.out.println(name + " is barking.");
 	    }
 	    void sleep () {
-	    	System.out.println(name + " is sleeping.");
-	}
+	    	System.out.println(name + " is sleeping.");  	
+	    }
+	    
+	    
+	    void sound() {
+	        System.out.println("Dog barks");// override
+	    }
 
 
 }

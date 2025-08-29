@@ -10,13 +10,18 @@ public class Animal {
     void eat () {
     	System.out.println(name +"eating..");
 	}
+    void sound() {
+        System.out.println("Animal makes a sound");
+    }
+    
     void drinkingWater() {
     	System.out.println("drinkingWater");
     }
     void foodHabbit() {
     	System.out.println("I am veg or non veg");
-    	
+    }
+    
     
     }
 
-}
+
